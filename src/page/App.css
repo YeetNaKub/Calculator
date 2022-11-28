@@ -1,0 +1,208 @@
+body{
+  background-color: #B4CFEC;
+}
+input{
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+}
+h2{
+font-family:sans-serif;
+}
+.App-header{ 
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+  color:white;
+  cursor:context-menu;
+}
+.menu{
+  float: left;
+  margin-top: 16.8px;
+  margin-left: 1%;
+  font-size:30px;
+  cursor:pointer;
+  color:white;
+}
+.blockl1{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block1{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 90%;
+}
+.block2{
+  background-color: white;
+  margin-top: 2%;
+  margin-left: 20%;
+  width: 60%;
+  height: auto;
+  margin-bottom: 2%;
+}
+.block5{
+  background-color: white;
+  margin-top: 2%;
+  margin-left: 20%;
+  width: 60%;
+  height: 400px;
+  margin-bottom: 2%;
+}
+.metb{
+  margin-left: 2%;
+  position:relative;
+  width: 70px;
+  height: 100px;
+  float: left;
+}
+
+.metb1{
+  margin-left: 5%;
+  position:relative;
+  width: 70px;
+  height: 200px;
+  float: left;
+}
+.metrix2{
+  margin-left: 2%;
+  position:relative;
+  width: 130px;
+  height: 100px;
+  float: left;
+}
+.metrixnd2{
+  margin-left: 2%;
+  position:relative;
+  width: 70px;
+  height: 200px;
+  float: left;
+}
+.metrix3{
+  margin-left: 2%;
+  position:relative;
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.var1{
+  margin-top: 19px;
+  margin-left: 5%;
+  float: left;
+}
+.inputl1{
+  margin-left: 1%;
+  float: left;
+}
+.inputl1 input{
+  border-radius: 0px;
+  height: 30px;
+  width: 60px;
+}
+.inputl2{
+  margin-left: 1%;
+  float: left;
+}
+.inputl2 input{
+  border-radius: 0px;
+  height: 30px;
+  width: 90px;
+}
+.inputb1{
+  margin-top: 19px;
+  margin-bottom: 10px;
+  margin-left: 1%;
+  float: left;
+}
+.inputrc{
+  position: relative;
+  width: 60px;
+  height: 100px;
+  float: left;
+}
+.inputr1{
+  margin-top: 19px;
+  margin-bottom: 10px;
+  margin-left: 1%;
+  float: left;
+}
+.inputr1 input{
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+}
+.inputb3{
+  margin-top: 19px;
+  margin-bottom: 10px;
+  margin-left: 1%;
+  float: left;
+}
+
+.inputb3 input{
+    border-radius: 10px;
+    height: 30px;
+    width: 120px;
+}
+.textin1{
+  font-family:sans-serif;
+  font-size: 25px;
+  text-align:center;
+}
+.textin2{
+  font-family:sans-serif;
+  font-size: 25px;
+}
+.inputb2{
+  margin-top: 19px;
+  margin-bottom: 10px;
+  margin-left: 1%;
+  float: left;
+}
+.inputb2 input {
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}
+.block1 button {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  margin-top: 1%;
+  margin-left: 5%;
+  cursor: pointer;
+}
+.blockl1 button {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  margin-top: 1%;
+  margin-left: 5%;
+  cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
