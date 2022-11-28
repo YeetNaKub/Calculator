@@ -19,9 +19,9 @@ function Bisection() {
     var xr=xrRef.current.value;
     var xm=0,fxl=0,fxr=0,fxm=0,count=0,er=1;
     var fx=fxRef.current.value;
-    var xr=parseFloat(xr)
-    var xl=parseFloat(xl)
-    var eri=parseFloat(eri)
+    xr=parseFloat(xr)
+    xl=parseFloat(xl)
+    eri=parseFloat(eri)
     function func(x){
       let scope={x:x}
       let code=compile(fx);
